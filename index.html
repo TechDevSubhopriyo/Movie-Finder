@@ -40,7 +40,7 @@
                 }else
                 {
                     httpRequest = new XMLHttpRequest();
-                    url = "http://www.omdbapi.com/?apikey="+"aadb0a16"+"&t="+movie_name;
+                    url = "https://www.omdbapi.com/?apikey="+"aadb0a16"+"&t="+movie_name;
                     httpRequest.open("GET", url);
                     httpRequest.send();
                     httpRequest.onreadystatechange = function(){
